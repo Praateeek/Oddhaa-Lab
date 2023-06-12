@@ -61,6 +61,21 @@ section:not(:first-child) {
   border-radius: 0.2rem;
   /* width: 400px; */
 }
+.text-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 50%;
+  }
+}
 
 .box {
   width: 230px;
@@ -147,15 +162,28 @@ section:not(:first-child) {
   margin-left: -55%;
   width: 190px;
 }
+.container {
+  width: 20%;
+  text-align: right;
+}
 .container h3 {
-  font-weight: bolder;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  margin-top: 25px;
 }
 .container p {
-  font-size: 30px;
+  font-size: 35px;
+}
+.btn-f-2 {
+  margin-left: auto;
 }
 .btn-f-2 p {
   font-size: 15px;
   font-weight: bold;
+  padding: 10px;
 }
 .row {
   position: relative;
@@ -166,18 +194,109 @@ section:not(:first-child) {
 }
 
 .hade-line p {
-  font-weight: bolder;
-  font-size: 25px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
   text-align: center;
 }
-.statment {
-  font-size: 16px;
+.statment p {
+  /* font-size: 16px;
   text-align: center;
-  /* width: 70%; */
+  width: 70%; */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
 .wrapper {
   border: 1px solid rgb(255, 255, 255);
   padding: 1%;
   width: 80%;
   margin: 0 auto;
+}
+.how-can-we-help-you {
+  text-align: center;
+}
+.we-help p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}
+.one-hundred {
+  background-color: #ff0404;
+  color: #ffffff;
+  height: auto;
+  width: 200px;
+  padding: 60px;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: auto;
+}
+.one-hundred p {
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.cutomers-growth h3 {
+  text-align: center;
+}
+.cutomers-growth {
+  text-align: center;
+}
+
+.we-help {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+}
+.row-text {
+  margin-top: 50px;
+  background-image: url(image/orange\ how\ can\ we\ help.png);
+  width: 90%;
+}
+.text-btn {
+  position: relative;
+}
+.textt-box {
+  position: absolute;
+  left: 400px;
+  top: 3650px;
+}
+
+.digital-needs p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  /* background-image: url(image/Rectangle\ 338.png); */
+}
+.why-digital-needs {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.needs p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
